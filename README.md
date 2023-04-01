@@ -18,13 +18,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/pablo-schmeiser/Scholarizer-Mirror">
-    <img src="images/ScholarizerLogo7.png" alt="Logo" width="214" height="153">
+    <img src="https://github.com/pablo-schmeiser/Scholarizer-Mirror/blob/main/reactapp/scholarizer/src/components/images/ScholarizerLogo.png" alt="Logo" width="280" height="144">
   </a>
-
 <h3 align="center">Scholarizer</h3>
 
   <p align="center">
-    A webplatform for scholars to find other scholars in their field of expertice. The key difference to similar platforms, is Schloarizers differentiation between normal citations and self-citations aswell as the option to compare multiple scholars regarding multiple different metric, as well as the feature to compare multiple scholars with each other.
+    A webplatform for scholars to find other scholars in their field of expertice. The key difference to similar platforms, is Schloarizers differentiation between normal citations and self-citations aswell as the option to compare multiple scholars regarding multiple different metrics, as well as the feature to compare multiple scholars with each other.
     <br />
     <a href="https://github.com/pablo-schmeiser/Scholarizer-Mirror"><strong>Explore the docs »</strong></a>
     <br />
@@ -71,7 +70,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-A webplatform for scholars to find other scholars in their field of expertice. The key difference to similar platforms, is Schloarizers differentiation between normal citations and self-citations aswell as the option to compare multiple scholars regarding multiple different metric, as well as the feature to compare multiple scholars with each other.
+A webplatform for scholars to find other scholars in their field of expertice. The key difference to similar platforms, is Schloarizers differentiation between normal citations and self-citations aswell as the option to compare multiple scholars regarding multiple different metrics, as well as the feature to compare multiple scholars with each other.
 
 
 <!-- USAGE EXAMPLES -->
