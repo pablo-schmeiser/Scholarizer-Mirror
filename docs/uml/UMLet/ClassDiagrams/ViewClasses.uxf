@@ -1,0 +1,166 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>8</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLPackage</id><coordinates><x>24</x><y>88</y><w>816</w><h>304</h></coordinates><panel_attributes>Buttons</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>344</x><y>152</y><w>160</w><h>88</h></coordinates><panel_attributes>&lt;&lt;Abstract&gt;&gt;
+Button
+--
+-name: String
+-belongingPage: Page
+--
+/+buttonPressed()/
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>72</x><y>304</y><w>152</w><h>56</h></coordinates><panel_attributes>FollowButton
+{class}
+--
+/+buttonPressed()/
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>256</x><y>304</y><w>152</w><h>56</h></coordinates><panel_attributes>CompareButton
+{class}
+--
+/+buttonPressed()/
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>608</x><y>304</y><w>152</w><h>56</h></coordinates><panel_attributes>AddAuthorButton
+{class}
+--
+/+buttonPressed()/
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>128</x><y>200</y><w>240</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>272;18;10;20;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>496</x><y>200</y><w>192</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>12;18;220;20;220;130</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>224</y><w>72</w><h>96</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>62;18;10;100</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>248</x><y>520</y><w>664</w><h>448</h></coordinates><panel_attributes>Pages</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>488</x><y>680</y><w>168</w><h>136</h></coordinates><panel_attributes>&lt;&lt;Abstract&gt;&gt;
+Page
+--
+-name: String
+- length: int
+-width: int
+-headerNaviTab: HeaderNaviTab
+-childPageTab: Page
+--
++Page()
++loadContent()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>264</x><y>840</y><w>152</w><h>112</h></coordinates><panel_attributes>AuthorProfilePage
+{class}
+--
+-bannerTab: Tab
+-authorDataTab: Tab
+-statisticsPage: Page
+-papersPage: Page
+-frequentCoAuthorsTab: Tab
+--
+/+loadContent()/
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>488</x><y>864</y><w>152</w><h>80</h></coordinates><panel_attributes>UserProfilePage
+{class}
+--
+-interestsTab: Tab
+-userInformationTab: Tab
+--
+/+loadContent()/
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>728</x><y>864</y><w>152</w><h>88</h></coordinates><panel_attributes>RecommendedPage
+{class}
+--
+-recommendedEntries: Entry[]
+-entriesTable: Entry[]
+--
+/+loadContent()/
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>272</x><y>560</y><w>152</w><h>56</h></coordinates><panel_attributes>LandingPage
+{class}
+--
+/+loadContent()/
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>496</x><y>560</y><w>152</w><h>72</h></coordinates><panel_attributes>SearchResultsPage
+{class}
+--
+-loadedEntries: Entry[]
+-entriesTable: Tab
+--
+/+loadContent()/
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>728</x><y>560</y><w>152</w><h>112</h></coordinates><panel_attributes>AuthorComparisonPage
+{class}
+--
+-comparisonEntriesTable: Tab
+-loadedEntries: Entry[]
+--
+/+loadContent()/
+/+addEntry(Entry)/
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>800</y><w>32</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>12;18;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>648</x><y>744</y><w>152</w><h>136</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>12;18;170;20;170;150</additional_attributes></element><element><id>Relation</id><coordinates><x>336</x><y>744</y><w>176</w><h>112</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>192;18;10;20;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>624</y><w>32</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>12;68;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>648</x><y>664</y><w>152</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>12;78;170;80;170;10</additional_attributes></element><element><id>Relation</id><coordinates><x>352</x><y>608</y><w>160</w><h>136</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>172;148;10;150;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>432</x><y>304</y><w>152</w><h>56</h></coordinates><panel_attributes>LoginButton
+{class}
+--
+/+buttonPressed()/
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>464</x><y>224</y><w>72</w><h>96</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>12;18;70;100</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1016</x><y>184</y><w>904</w><h>592</h></coordinates><panel_attributes>Tabs</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>384</x><y>112</y><w>80</w><h>24</h></coordinates><panel_attributes>/AbstractClass/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1392</x><y>416</y><w>168</w><h>88</h></coordinates><panel_attributes>&lt;&lt;Abstract&gt;&gt;
+Tab
+--
+-length: int
+-width: int
+--
++Tab(int, int)
+/+loadContent()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1056</x><y>600</y><w>216</w><h>136</h></coordinates><panel_attributes>BannerTab
+{class}
+--
+-picture: Image
+- authorName: String
+-followers: int
+-h-index: int
+-i-index: int
+--
++bannerTab(Image, String, int, int, int)
+/+loadContent()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1376</x><y>600</y><w>216</w><h>136</h></coordinates><panel_attributes>InterestsTab
+{class}
+--
+-addInterestsButton: Button
+--
+/+loadContent()/
+/+addInterests(String)/</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1624</x><y>600</y><w>216</w><h>136</h></coordinates><panel_attributes>UserInformationTab
+{class}
+--
+-userEmail:String
+--
+/+loadContent()/</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1064</x><y>408</y><w>216</w><h>64</h></coordinates><panel_attributes>AuthorDataTab
+{class}
+--
+/+loadContent()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1152</x><y>232</y><w>216</w><h>64</h></coordinates><panel_attributes>ComparisonEntriesTab
+{class}
+--
+/+loadContent()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1552</x><y>232</y><w>216</w><h>64</h></coordinates><panel_attributes>EntriesTab
+{class}
+--
+-entries: Entry[]
+--
+/+loadContent()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1688</x><y>424</y><w>216</w><h>64</h></coordinates><panel_attributes>FrequentCoAuthorsTab
+{class}
+--
+-entries: Entry[]
+--
+/+loadContent()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1488</x><y>288</y><w>160</w><h>144</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>12;158;180;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1304</x><y>288</y><w>160</w><h>144</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>172;158;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1552</x><y>432</y><w>152</w><h>32</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>12;18;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1552</x><y>480</y><w>184</w><h>136</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>12;18;210;150</additional_attributes></element><element><id>Relation</id><coordinates><x>1472</x><y>488</y><w>32</w><h>128</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>12;18;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>1272</x><y>440</y><w>144</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>152;28;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1208</x><y>488</y><w>208</w><h>128</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>232;18;10;140</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1040</x><y>864</y><w>664</w><h>400</h></coordinates><panel_attributes>Entries</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1272</x><y>1056</y><w>168</w><h>88</h></coordinates><panel_attributes>&lt;&lt;Abstract&gt;&gt;
+Entry
+--
+-entryData: String
+--
++Entry(String)
+/+loadContent()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1088</x><y>912</y><w>216</w><h>64</h></coordinates><panel_attributes>SearchEntry
+{class}
+--
+/+loadContent()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1384</x><y>896</y><w>296</w><h>136</h></coordinates><panel_attributes>AuthorComparisonEntry
+{class}
+--
+-authorImage: Image
+-authorName: String
+-followers: int
+-h-index: int
+-i-index: int
+--
++AuthorComparisonEntry(Image,String,int,int,int)
+/+loadContent()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1248</x><y>1184</y><w>216</w><h>64</h></coordinates><panel_attributes>AuthorSearchEntry
+{class}
+--
+/+loadContent()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1432</x><y>1024</y><w>72</w><h>64</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>12;58;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1184</x><y>968</y><w>112</w><h>136</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>112;148;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1352</x><y>1128</y><w>32</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>12;18;10;70</additional_attributes></element></diagram>

@@ -1,0 +1,21 @@
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 3rem;
+}
+
+.menu-item {
+    margin-top: 1rem;
+    font-size: 15px;
+}
+
+.menu-item:hover {
+    color: rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(210, 210, 210);
+    transition: all 0.2s ease-out;
+}
+
+.link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}

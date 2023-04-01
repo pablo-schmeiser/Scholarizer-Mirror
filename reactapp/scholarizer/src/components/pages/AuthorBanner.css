@@ -1,0 +1,92 @@
+.author-card {
+    display: flex;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 15px;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    border-radius: 20px;
+    /*    background-color: #eeeeee;*/
+}
+
+.author-profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.author-header-box {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 25px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+.author-name {
+    display: flex;
+    justify-content: center;
+}
+
+.author-table {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.author-data {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 30px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: white;
+}
+
+.author-statistics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.stat-item {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 1rem;
+    justify-content: center;
+}
+
+.stat-name {
+    display: flex;
+    justify-content: center;
+}
+
+.stat-value {
+    display: flex;
+    justify-content: center;
+}
+
+.follow-section {
+    display: flex;
+    justify-content: center;
+}
+
+.follow {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 174, 49);
+    padding-top: 13px;
+    width: 80px;
+    color: white;
+}
+
+.follow:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(210, 210, 210);
+    transition: all 0.2s ease-out;
+    background-color: rgb(1, 127, 1);
+}

@@ -1,0 +1,18 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>8</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLGeneric</id><coordinates><x>120</x><y>0</y><w>440</w><h>552</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;subsystem&gt;&gt;
+Author Profile Page
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>160</x><y>184</y><w>160</w><h>80</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Follow Button</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>368</x><y>184</y><w>160</w><h>80</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Compare Button</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>152</x><y>312</y><w>160</w><h>80</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Publication Page</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>368</x><y>312</y><w>160</w><h>80</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Statistics Page</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>264</x><y>64</y><w>160</w><h>80</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Author Header</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>152</x><y>416</y><w>160</w><h>80</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Frequent Co-Authors </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>368</x><y>416</y><w>160</w><h>80</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Frequent Citers</panel_attributes><additional_attributes></additional_attributes></element></diagram>

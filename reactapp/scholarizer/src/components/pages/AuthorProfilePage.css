@@ -1,0 +1,101 @@
+.page-table {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 5rem;
+    margin-left: 3rem;
+    vertical-align: top;
+    position: sticky;
+}
+
+.profile-page {
+    display: flex;
+    grid-column: 1 / 2;
+    flex-direction: column;
+    justify-content: start;
+    position: sticky;
+    margin-left: 3rem;
+    /* padding-left: 10rem;*/
+}
+
+.publications {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 1rem;
+    margin-top: 1rem;
+    justify-items: center;
+}
+
+.statistics {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 2rem;
+    margin-top: 1rem;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.vertical-line {
+    max-width: 10px;
+}
+
+.pages-menu {
+    text-align: center;
+}
+
+.suggested-scholars-tab {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.suggested-scholars-table {
+    padding: 1rem;
+}
+
+.suggested-authors-cards {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 1rem;
+    justify-content: right;
+    margin-top: 1rem;
+}
+
+.suggested-scholars-title {
+    font-size: 18px;
+    justify-content: left;
+    justify-items: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    padding-right: 1rem;
+}
+
+.profile-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#load-suggested-scholars{
+    width: auto;
+    padding: 8px;
+    margin: 5px;
+    border: 2px solid white;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color:rgb(8, 174, 49);
+    color: white;
+
+
+}
+
+#load-suggested-scholars:hover {
+    background-color: grey;
+
+}

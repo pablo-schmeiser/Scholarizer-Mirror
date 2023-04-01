@@ -1,0 +1,25 @@
+.publication-card {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 1rem;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    justify-content: left;
+}
+
+.abstract {
+    font-size: 1rem;
+    color: rgb(72, 72, 72);
+    justify-content: left;
+    justify-items: left;
+}
+
+.publication-title {
+    display: flex;
+    font-size: 1.3rem;
+}
+
+.publication-author {
+    margin-left: 0.5rem;
+}

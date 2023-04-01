@@ -1,0 +1,15 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLGeneric</id><coordinates><x>42</x><y>20</y><w>710</w><h>510</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;subsystem&gt;&gt;
+Author Comparison Page
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>312</x><y>80</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Selected Authors List</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>192</x><y>210</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Author Comparison Table</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>442</x><y>210</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Author Citations 
+Comparison Graph</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>302</x><y>340</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Author Indicies 
+Comparison Graph
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>

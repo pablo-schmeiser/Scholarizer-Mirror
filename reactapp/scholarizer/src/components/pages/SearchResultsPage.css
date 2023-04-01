@@ -1,0 +1,41 @@
+.search-results-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    color: rgb(108, 107, 107);
+}
+
+.search-results-table {
+    display: flex;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1rem;
+    margin-left: 3rem;
+    vertical-align: top;
+    justify-content: center;
+    align-items: center;
+}
+
+.publication-cards {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 40rem;
+}

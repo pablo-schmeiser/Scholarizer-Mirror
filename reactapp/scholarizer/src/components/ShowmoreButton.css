@@ -1,0 +1,19 @@
+.show-more {
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid white;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: white;
+    color: grey;
+}
+
+.show-more:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.show-more:active {
+    background-color: gray;
+}

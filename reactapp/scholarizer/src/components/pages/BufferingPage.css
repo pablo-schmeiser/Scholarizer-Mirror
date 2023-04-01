@@ -1,0 +1,11 @@
+.buffering-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    max-width: 1500px;
+    margin-top: 15rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}

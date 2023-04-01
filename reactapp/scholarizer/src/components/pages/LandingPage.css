@@ -1,0 +1,133 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    max-width: 1500px;
+    margin-top: 15rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.buffering {
+    padding: 5px 5px;
+    height: 35px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    max-width: 1500px;
+    margin-left: 5rem;
+}
+
+.SearchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-top: 1rem;
+}
+
+.main-logo {
+    margin-left: 8rem;
+}
+
+input[type="home-search"] {
+    height: 1rem;
+    width: 100%;
+    padding: 20px 10px;
+    border: 0 rgb(255, 255, 255);
+    border-radius: 10px 0 0 10px;
+
+}
+
+input::placeholder {
+    font-size: 1rem;
+    padding: 10px 10px;
+}
+
+.HomeSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33rem;
+    border: 2px solid grey;
+    height: 2, 5rem;
+    margin-right: 4rem;
+    border-radius: 10px;
+
+}
+
+.HomeSearch > button {
+    background-color: Transparent;
+    border-style: hidden;
+}
+
+.home-search {
+    background-color: Transparent;
+    color: rgb(2, 160, 54);
+    padding: 5px 5px;
+    height: 32px;
+    border-radius: 0;
+    border-style: hidden;
+}
+
+.home-search:hover {
+    color: green;
+}
+
+.advanced-search-button {
+    border: none;
+    background-color: white;
+    color: lightgrey;
+    font-size: 14px;
+    margin-left: 424px;
+}
+
+.advanced-search-button-button {
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid white;
+    font-size: 0.7rem;
+    border-radius: 10px;
+    background-color: lightgrey;
+    color: black;
+}
+
+.advanced-search-button-button:hover {
+    background-color: lightgray;
+}
+
+.advanced-search-button-button:active {
+    background-color: gray;
+}
+
+.advanced-search-menu {
+    position: relative;
+    bottom: -45px;
+    right: 126px;
+    z-index: 1;
+    padding: 10px;
+}
+
+.filter-options {
+    position: relative;
+    z-index: 2;
+    color: black;
+
+}
+
+
+.filter-options-container {
+    z-index: 2;
+    margin-top: 0.6rem;
+
+}
+
+

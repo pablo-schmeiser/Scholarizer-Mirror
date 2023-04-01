@@ -1,0 +1,73 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>7</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>112</x><y>152</y><w>322</w><h>91</h></coordinates><panel_attributes>SearchController
+{RestController}
+--
+_-parser: SearchParser {readOnly}_
+--
+-returnSearch(query: String, type: SearchType): List&lt;SearchEntity&gt;
+
++getSearchResult(query: String): List&lt;SearchEntity&gt;
++getAdvancedSearchResult(query: String, type: SearchType): List&lt;SearchEntity&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>112</x><y>264</y><w>224</w><h>63</h></coordinates><panel_attributes>CompareController
+{RestController}
+--
+
+--
++addToComparison(query: String): AuthorEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>112</x><y>432</y><w>238</w><h>77</h></coordinates><panel_attributes>BookmarkController
+{RestController}
+--
+
+--
++getBookmarks(uid: long): List&lt;BookmarkEntity&gt;
++addBookmark(paper: PaperEntity, uid: long): boolean
++removeBookmark(paper: PaperEntity, uid: long): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>112</x><y>523</y><w>217</w><h>63</h></coordinates><panel_attributes>RecommendationController
+{RestController}
+--
+
+--
++getRecommendations(uid long): List&lt;SearchEntity&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>112</x><y>600</y><w>287</w><h>133</h></coordinates><panel_attributes>ProfileController
+{RestController}
+--
+
+--
++createAccount(email: String, pwd: String, interests: String[]): boolean
++login(email: String, pwd: String): boolean
++changeEmail(newEmail: String, pwd: String, uid: long): boolean
++changePassword(newPwd: String, pwd: String, uid: long): boolean
++changeInterests(interests: List&lt;String&gt;, uid: long): boolean
+
++deleteAccount(pwd: String, uid: long): boolean
++getProfile(uid: long): UserEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>98</x><y>117</y><w>357</w><h>630</h></coordinates><panel_attributes>controllers</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>532</x><y>467</y><w>224</w><h>21</h></coordinates><panel_attributes>model.springEntities.bookmarks::BookmarkRepository</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>343</x><y>467</y><w>203</w><h>35</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=0..*
+use &gt;</panel_attributes><additional_attributes>10;20;270;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>112</x><y>341</y><w>231</w><h>77</h></coordinates><panel_attributes>FollowController
+{RestController}
+--
+
+--
++getFollowing(uid: long): List&lt;FollowEntity&gt;
++addFollow(author: AuthorEntity, uid: long): boolean
++removeFollow(author: AuthorEntity, uid: long): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>336</x><y>376</y><w>210</w><h>35</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=0..*
+use &gt;</panel_attributes><additional_attributes>10;20;280;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>532</x><y>376</y><w>224</w><h>21</h></coordinates><panel_attributes>model.springEntities.follows::FollowRepository</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>532</x><y>635</y><w>224</w><h>21</h></coordinates><panel_attributes>model.springEntities.users::UserRepository</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>392</x><y>635</y><w>154</w><h>35</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=0..*
+use &gt;</panel_attributes><additional_attributes>10;20;200;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>532</x><y>551</y><w>294</w><h>21</h></coordinates><panel_attributes>model.springEntities.recommendation::RecommendationHandler</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>322</x><y>551</y><w>224</w><h>35</h></coordinates><panel_attributes>lt=-&gt;
+m1=1
+m2=0..*
+use &gt;</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>56</x><y>47</y><w>224</w><h>21</h></coordinates><panel_attributes>model.springEntities.search::SearchEntity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>154</x><y>61</y><w>42</w><h>105</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+use ^</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>399</x><y>61</y><w>49</w><h>105</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..*
+r1=parser
+m2=1
+use ^</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>294</x><y>47</y><w>224</w><h>21</h></coordinates><panel_attributes>model.springEntities.search::SearchParser</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>329</x><y>236</y><w>161</w><h>91</h></coordinates><panel_attributes>lt=-&gt;
+m1=1
+m2=1
+r2=searchController
+use &gt;</panel_attributes><additional_attributes>10;100;120;100;120;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>532</x><y>194</y><w>224</w><h>21</h></coordinates><panel_attributes>model.springEntities.search::SearchType</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>427</x><y>194</y><w>119</w><h>35</h></coordinates><panel_attributes>lt=-&gt;
+m1=1
+m2=0..*
+r2=type
+use &gt;</panel_attributes><additional_attributes>10;20;150;20</additional_attributes></element></diagram>

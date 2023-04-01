@@ -1,0 +1,70 @@
+
+.explore-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    color: rgb(108, 107, 107);
+
+}
+
+.page-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin-left: 3rem;
+    vertical-align: top;
+}
+
+.suggested-scholars {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 80px;
+    vertical-align: top;
+    align-items: baseline;
+    padding-right: 5rem;
+}
+
+.suggested-scholars-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    vertical-align: top;
+    align-items: left;
+    margin-top: 1rem;
+    margin-left: 80px;
+
+}
+
+.vertical-line {
+    border-left: 2px solid #C3C3C3;
+    min-height: 400px;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.suggested-scholars-title {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    justify-content: right;
+    margin-left: 80px;
+}
+
+.publication-cards {
+    display: grid;
+    grid-column: 1/2;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding-left: 5rem;
+}

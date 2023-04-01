@@ -1,0 +1,347 @@
+{
+  "paperId": "76bd88ff810f0083d5271799b5bd5618bc1296af",
+  "title": "Thermally Composable Hybrid Application Mapping for Real-Time Applications in Heterogeneous Many-Core Systems",
+  "citationStyles": {
+    "bibtex": "@['JournalArticle']{Pourmohseni2019ThermallyCH,\n author = {Behnaz Pourmohseni and Fedor Smirnov and Heba Khdr and S. Wildermann and J. Teich and J. Henkel},\n booktitle = {IEEE Real-Time Systems Symposium},\n journal = {2019 IEEE Real-Time Systems Symposium (RTSS)},\n pages = {220-232},\n title = {Thermally Composable Hybrid Application Mapping for Real-Time Applications in Heterogeneous Many-Core Systems},\n year = {2019}\n}\n"
+  },
+  "authors": [
+    {
+      "authorId": "9250598",
+      "name": "Behnaz Pourmohseni"
+    },
+    {
+      "authorId": "2083877803",
+      "name": "Fedor Smirnov"
+    },
+    {
+      "authorId": "2522915",
+      "name": "Heba Khdr"
+    },
+    {
+      "authorId": "1720511",
+      "name": "S. Wildermann"
+    },
+    {
+      "authorId": "144365535",
+      "name": "J. Teich"
+    },
+    {
+      "authorId": "144271439",
+      "name": "J. Henkel"
+    }
+  ],
+  "citations": [
+    {
+      "paperId": "9fe77ccdbb4fdd40a40e139101c58d39b9e85a8c",
+      "title": "Thermal-Aware Standby-Sparing Technique on Heterogeneous Real-Time Embedded Systems",
+      "authors": [
+        {
+          "authorId": "153631156",
+          "name": "Mohsen Ansari"
+        },
+        {
+          "authorId": "2144694858",
+          "name": "Sepideh Safari"
+        },
+        {
+          "authorId": "1820939079",
+          "name": "Sina Yari-Karin"
+        },
+        {
+          "authorId": "2022561502",
+          "name": "Pourya Gohari-Nazari"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "145063983",
+          "name": "M. Shafique"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        },
+        {
+          "authorId": "2490667",
+          "name": "A. Ejlali"
+        }
+      ]
+    },
+    {
+      "paperId": "4e4e7357af6358bd9aa74e39188f5dc3bc6b88f4",
+      "title": "A Learning-based Methodology for Scenario-aware Mapping of Soft Real-time Applications onto Heterogeneous MPSoCs",
+      "authors": [
+        {
+          "authorId": "1423736732",
+          "name": "J. Spieck"
+        },
+        {
+          "authorId": "1720511",
+          "name": "S. Wildermann"
+        },
+        {
+          "authorId": "119205748",
+          "name": "J&#252;rgen Teich"
+        }
+      ]
+    },
+    {
+      "paperId": "0fe5ae01f24ae94d8a57bda5b2456ddb1b786c0d",
+      "title": "Passive Primary/Backup-based Scheduling for Simultaneous Power and Reliability Management on Heterogeneous Embedded Systems",
+      "authors": [
+        {
+          "authorId": "1820939079",
+          "name": "Sina Yari-Karin"
+        },
+        {
+          "authorId": "2173628540",
+          "name": "Roozbeh Siyadatzadeh"
+        },
+        {
+          "authorId": "153631156",
+          "name": "Mohsen Ansari"
+        },
+        {
+          "authorId": "2490667",
+          "name": "A. Ejlali"
+        }
+      ]
+    },
+    {
+      "paperId": "259dc8ad45f15f7cef63d146e46cfe3bbc3be2b4",
+      "title": "Task Migration Policy for Thermal-Aware Dynamic Performance Optimization in Many-Core Systems",
+      "authors": [
+        {
+          "authorId": "9250598",
+          "name": "Behnaz Pourmohseni"
+        },
+        {
+          "authorId": "1720511",
+          "name": "S. Wildermann"
+        },
+        {
+          "authorId": "2083877803",
+          "name": "Fedor Smirnov"
+        },
+        {
+          "authorId": "2055565359",
+          "name": "Paul E. Meyer"
+        },
+        {
+          "authorId": "119205748",
+          "name": "J&#252;rgen Teich"
+        }
+      ]
+    },
+    {
+      "paperId": "01d51d00054ecfd5d7acc23db37d241cd0d395bb",
+      "title": "Date of publication xxxx 00, 0000, date of current version xxxx 00, 0000",
+      "authors": [
+        {
+          "authorId": "2144694858",
+          "name": "Sepideh Safari"
+        },
+        {
+          "authorId": "153631156",
+          "name": "Mohsen Ansari"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "2155231343",
+          "name": "Pourya Gohari Nazari"
+        },
+        {
+          "authorId": "2098753414",
+          "name": "Sina"
+        },
+        {
+          "authorId": "2155231134",
+          "name": "YARI-KARIN"
+        },
+        {
+          "authorId": "1411407795",
+          "name": "Amir Yeganeh-Khaksar"
+        },
+        {
+          "authorId": "1784633",
+          "name": "S. Hessabi"
+        },
+        {
+          "authorId": "2155231131",
+          "name": "Alireza"
+        },
+        {
+          "authorId": "2155231252",
+          "name": "Ejlali"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "de13984d6fcb9d05beddeca2e3bf6c71806bb555",
+      "title": "A Survey of Fault-Tolerance Techniques for Embedded Systems From the Perspective of Power, Energy, and Thermal Issues",
+      "authors": [
+        {
+          "authorId": "2144694858",
+          "name": "Sepideh Safari"
+        },
+        {
+          "authorId": "153631156",
+          "name": "Mohsen Ansari"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "2022561502",
+          "name": "Pourya Gohari-Nazari"
+        },
+        {
+          "authorId": "1820939079",
+          "name": "Sina Yari-Karin"
+        },
+        {
+          "authorId": "1411407795",
+          "name": "Amir Yeganeh-Khaksar"
+        },
+        {
+          "authorId": "1784633",
+          "name": "S. Hessabi"
+        },
+        {
+          "authorId": "2490667",
+          "name": "A. Ejlali"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "57192b191322b4195f52475dfe244f56c1bd5a32",
+      "title": "Power Management to Meet Thermal Safe Power in Fault-Tolerant Embedded Systems",
+      "authors": [
+        {
+          "authorId": "153631156",
+          "name": "Mohsen Ansari"
+        },
+        {
+          "authorId": "1820939079",
+          "name": "Sina Yari-Karin"
+        },
+        {
+          "authorId": "2144694858",
+          "name": "Sepideh Safari"
+        },
+        {
+          "authorId": "2490667",
+          "name": "A. Ejlali"
+        }
+      ]
+    },
+    {
+      "paperId": "fd363aabb9b04ccc1279ffbf7f87eee41a3dac37",
+      "title": "TherMa-MiCs: Thermal-Aware Scheduling for Fault-Tolerant Mixed-Criticality Systems",
+      "authors": [
+        {
+          "authorId": "2144694858",
+          "name": "Sepideh Safari"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "2022561502",
+          "name": "Pourya Gohari-Nazari"
+        },
+        {
+          "authorId": "153631156",
+          "name": "Mohsen Ansari"
+        },
+        {
+          "authorId": "1784633",
+          "name": "S. Hessabi"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "00ef91d9829ba1b54c1d8cb094da7e8f2f37eb1c",
+      "title": "System-Level Mapping, Analysis, and Management of Real-Time Applications in Many-Core Systems",
+      "authors": [
+        {
+          "authorId": "9250598",
+          "name": "Behnaz Pourmohseni"
+        }
+      ]
+    },
+    {
+      "paperId": "be127b8793fa0c53835a8d024cc791c3df306452",
+      "title": "Hybrid Application Mapping for Composable Many-Core Systems: Overview and Future Perspective",
+      "authors": [
+        {
+          "authorId": "9250598",
+          "name": "Behnaz Pourmohseni"
+        },
+        {
+          "authorId": "143742137",
+          "name": "M. Glaß"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "81650122",
+          "name": "Martin Rapp"
+        },
+        {
+          "authorId": "3450892",
+          "name": "Valentina Richthammer"
+        },
+        {
+          "authorId": "145690735",
+          "name": "T. Schwarzer"
+        },
+        {
+          "authorId": "2083877803",
+          "name": "Fedor Smirnov"
+        },
+        {
+          "authorId": "1423736732",
+          "name": "J. Spieck"
+        },
+        {
+          "authorId": "144365535",
+          "name": "J. Teich"
+        },
+        {
+          "authorId": "1679979",
+          "name": "A. Weichslgartner"
+        },
+        {
+          "authorId": "1720511",
+          "name": "S. Wildermann"
+        }
+      ]
+    }
+  ]
+}

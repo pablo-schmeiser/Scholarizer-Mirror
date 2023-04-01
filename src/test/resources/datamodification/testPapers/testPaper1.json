@@ -1,0 +1,275 @@
+{
+  "paperId": "696d9e4ad06e97527eaa3c95c78e8131a173e198",
+  "title": "Dynamic Guardband Selection: Thermal-Aware Optimization for Unreliable Multi-Core Systems",
+  "citationStyles": {
+    "bibtex": "@['JournalArticle']{Khdr2019DynamicGS,\n author = {Heba Khdr and H. Amrouch and J. Henkel},\n booktitle = {IEEE transactions on computers},\n journal = {IEEE Transactions on Computers},\n pages = {53-66},\n title = {Dynamic Guardband Selection: Thermal-Aware Optimization for Unreliable Multi-Core Systems},\n volume = {68},\n year = {2019}\n}\n"
+  },
+  "authors": [
+    {
+      "authorId": "2522915",
+      "name": "Heba Khdr"
+    },
+    {
+      "authorId": "1894736",
+      "name": "H. Amrouch"
+    },
+    {
+      "authorId": "144271439",
+      "name": "J. Henkel"
+    }
+  ],
+  "citations": [
+    {
+      "paperId": "01d51d00054ecfd5d7acc23db37d241cd0d395bb",
+      "title": "Date of publication xxxx 00, 0000, date of current version xxxx 00, 0000",
+      "authors": [
+        {
+          "authorId": "2144694858",
+          "name": "Sepideh Safari"
+        },
+        {
+          "authorId": "153631156",
+          "name": "Mohsen Ansari"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "2155231343",
+          "name": "Pourya Gohari Nazari"
+        },
+        {
+          "authorId": "2098753414",
+          "name": "Sina"
+        },
+        {
+          "authorId": "2155231134",
+          "name": "YARI-KARIN"
+        },
+        {
+          "authorId": "1411407795",
+          "name": "Amir Yeganeh-Khaksar"
+        },
+        {
+          "authorId": "1784633",
+          "name": "S. Hessabi"
+        },
+        {
+          "authorId": "2155231131",
+          "name": "Alireza"
+        },
+        {
+          "authorId": "2155231252",
+          "name": "Ejlali"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "de13984d6fcb9d05beddeca2e3bf6c71806bb555",
+      "title": "A Survey of Fault-Tolerance Techniques for Embedded Systems From the Perspective of Power, Energy, and Thermal Issues",
+      "authors": [
+        {
+          "authorId": "2144694858",
+          "name": "Sepideh Safari"
+        },
+        {
+          "authorId": "153631156",
+          "name": "Mohsen Ansari"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "2022561502",
+          "name": "Pourya Gohari-Nazari"
+        },
+        {
+          "authorId": "1820939079",
+          "name": "Sina Yari-Karin"
+        },
+        {
+          "authorId": "1411407795",
+          "name": "Amir Yeganeh-Khaksar"
+        },
+        {
+          "authorId": "1784633",
+          "name": "S. Hessabi"
+        },
+        {
+          "authorId": "2490667",
+          "name": "A. Ejlali"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "a1dc02134258286d65514f3238fdc8f79b44ad36",
+      "title": "Timing Error Aware Register Allocation in TS",
+      "authors": [
+        {
+          "authorId": "2112870892",
+          "name": "Shengchen Xiao"
+        },
+        {
+          "authorId": "2158101045",
+          "name": "J. He"
+        },
+        {
+          "authorId": "2115310112",
+          "name": "Xi Yang"
+        },
+        {
+          "authorId": "2135106416",
+          "name": "Heng Zhou"
+        },
+        {
+          "authorId": "2153108204",
+          "name": "Yujie Yuan"
+        }
+      ]
+    },
+    {
+      "paperId": "275e682ba21f64696d5555bc1ccc5c7a20e9629b",
+      "title": "Application Phase Behavior-Guided Thermal Management of Embedded Platforms",
+      "authors": [
+        {
+          "authorId": "2108437455",
+          "name": "Rakesh Kumar"
+        },
+        {
+          "authorId": "80761375",
+          "name": "Akash Sachan"
+        },
+        {
+          "authorId": "2070579387",
+          "name": "Ankur Gogoi"
+        },
+        {
+          "authorId": "5196118",
+          "name": "Bibhas Ghoshal"
+        }
+      ]
+    },
+    {
+      "paperId": "e3a7ed953ff80da6d7efaf07ae65e0b2a5b28a96",
+      "title": "2019 Index IEEE Transactions on Computers Vol. 68",
+      "authors": [
+        {
+          "authorId": "81650122",
+          "name": "Martin Rapp"
+        },
+        {
+          "authorId": "20675037",
+          "name": "Mark Sagi"
+        },
+        {
+          "authorId": "37759459",
+          "name": "A. Pathania"
+        },
+        {
+          "authorId": "1686023",
+          "name": "A. Herkersdorf"
+        },
+        {
+          "authorId": "144271434",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "5f93fe9040018f4dab516b1be8db5ada99e0c501",
+      "title": "Resource Management for Multicores to Optimize Performance under Temperature and Aging Constraints",
+      "authors": [
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        }
+      ]
+    },
+    {
+      "paperId": "aa3ecaef9b474124eca617347084c60ba7d6b0a9",
+      "title": "Dynamic Resource Management for Heterogeneous Many-Cores",
+      "authors": [
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        },
+        {
+          "authorId": "144365535",
+          "name": "J. Teich"
+        },
+        {
+          "authorId": "1720511",
+          "name": "S. Wildermann"
+        },
+        {
+          "authorId": "1894736",
+          "name": "H. Amrouch"
+        }
+      ]
+    },
+    {
+      "paperId": "0f07e35093ebf5160609ee607306eb62c8d68dc2",
+      "title": "Estimating and optimizing BTI aging effects",
+      "authors": [
+        {
+          "authorId": "1894736",
+          "name": "H. Amrouch"
+        },
+        {
+          "authorId": "79417324",
+          "name": "Victor M. van Santen"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "1834441622b91a26e842b4c49cda90afaa92e0aa",
+      "title": "Estimating and Optimizing BTl Aging Effects: From Physics to CAD",
+      "authors": [
+        {
+          "authorId": "1894736",
+          "name": "H. Amrouch"
+        },
+        {
+          "authorId": "30608912",
+          "name": "Victor M. van Santen"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "e269e18a1a479d07a3fd826310c80c739156fd69",
+      "title": "Aging Effects: From Physics to CAD",
+      "authors": [
+        {
+          "authorId": "1894736",
+          "name": "H. Amrouch"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    }
+  ]
+}

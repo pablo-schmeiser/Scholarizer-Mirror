@@ -1,0 +1,49 @@
+.card {
+    display: flex;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 15px;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+}
+
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+
+.header-box {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 25px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+.user-table {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.user-data {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    min-width: 400px;
+    grid-gap: 15px;
+    background-color: #eeeeee;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.reset:hover {
+    color: red;
+    border-bottom: 2px solid rgb(210, 210, 210);
+    transition: all 0.2s ease-out;
+}

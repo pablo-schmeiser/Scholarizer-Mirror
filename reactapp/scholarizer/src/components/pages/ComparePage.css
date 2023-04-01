@@ -1,0 +1,141 @@
+.compare-page-title {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin: 1rem auto;
+    color: rgb(108, 107, 107);
+}
+
+.compare-authors-list {
+    display: flex;
+    justify-content: center;
+}
+
+.compare-barcharts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    height: 800px;
+    width: 100%;
+
+}
+
+.citations-barchart {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    padding-top: 3rem;
+}
+
+.indicies-barchart {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    padding-top: 3rem;
+}
+
+.compare-page-table {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 1rem;
+    vertical-align: top;
+    justify-content: center;
+}
+
+.author-cards-table {
+    border-width: 2px;
+    border-color: black;
+    padding: 1rem;
+    margin-top: 0rem;
+}
+
+.remove-coauthors-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 185px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ccc; /* default color */
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    position: relative;
+    margin: 0 auto;
+}
+
+.remove-coauthors-switch.active {
+    background-color: #4caf50; /* active color */
+    transition: background-color 0.2s ease;
+}
+
+.remove-coauthors-switch::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.2s ease;
+}
+
+.remove-coauthors-switch.active::before {
+    left: calc(100% - 30px);
+}
+
+.color-key {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 1rem;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 2.5rem;
+}
+
+.total-stats-key {
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.no-self-key {
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.no-coauthors-key {
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.no-self-no-coauthors-key {
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.refresh-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding: 4px 12px;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    width: 7rem;
+    height: 3rem;
+}
+
+.refresh-button:hover {
+    background-color: #45a049;
+}
+.refresh-button:active {
+    background-color: darkgreen;
+}

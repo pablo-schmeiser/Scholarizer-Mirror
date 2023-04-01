@@ -1,0 +1,59 @@
+.newpubcard {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+{ /*width: 60%;*/
+}
+
+
+.new-publication-card {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 0.2rem;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+}
+
+.new-abstract {
+    font-size: 0.8rem;
+    color: rgb(72, 72, 72);
+    justify-content: left;
+    justify-items: left;
+    width: 100%;
+}
+
+.new-publication-header {
+    display: grid;
+    grid-template-columns: repeat(2, 90% 10%);
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.publication-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+}
+
+.new-publication-author {
+    margin-left: 0.5rem;
+}
+
+.bookmark-button {
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+}
+
+.new-publication-statistics {
+    display: grid;
+    grid-template-columns: repeat();
+}
+.publication-authors{
+    display: flex;
+
+}

@@ -1,0 +1,87 @@
+{
+  "total": 1,
+  "offset": 0,
+  "data": [
+    {
+      "authorId": "2522915",
+      "name": "Heba Khdr",
+      "affiliations": [],
+      "homepage": null,
+      "paperCount": 3,
+      "citationCount": 32,
+      "hIndex": 3,
+      "papers": [
+
+        {
+          "paperId": "696d9e4ad06e97527eaa3c95c78e8131a173e198",
+          "title": "Dynamic Guardband Selection: Thermal-Aware Optimization for Unreliable Multi-Core Systems",
+          "citationCount": 10,
+          "authors": [
+            {
+              "authorId": "2522915",
+              "name": "Heba Khdr"
+            },
+            {
+              "authorId": "1894736",
+              "name": "H. Amrouch"
+            },
+            {
+              "authorId": "144271439",
+              "name": "J. Henkel"
+            }
+          ]
+        },
+        {
+          "paperId": "76bd88ff810f0083d5271799b5bd5618bc1296af",
+          "title": "Thermally Composable Hybrid Application Mapping for Real-Time Applications in Heterogeneous Many-Core Systems",
+          "citationCount": 10,
+          "authors": [
+            {
+              "authorId": "9250598",
+              "name": "Behnaz Pourmohseni"
+            },
+            {
+              "authorId": "2083877803",
+              "name": "Fedor Smirnov"
+            },
+            {
+              "authorId": "2522915",
+              "name": "Heba Khdr"
+            },
+            {
+              "authorId": "1720511",
+              "name": "S. Wildermann"
+            },
+            {
+              "authorId": "144365535",
+              "name": "J. Teich"
+            },
+            {
+              "authorId": "144271439",
+              "name": "J. Henkel"
+            }
+          ]
+        },
+        {
+          "paperId": "26d471bc2283ff357985177fbc26317a980891b9",
+          "title": "Aging-Constrained Performance Optimization for Multi Cores",
+          "citationCount": 12,
+          "authors": [
+            {
+              "authorId": "2522915",
+              "name": "Heba Khdr"
+            },
+            {
+              "authorId": "1894736",
+              "name": "H. Amrouch"
+            },
+            {
+              "authorId": "144271439",
+              "name": "J. Henkel"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+.suggested-scholar-card {
+    background-color: #eeeeee;
+}
+
+.suggested-author-card {
+    display: flex;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 15px;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: #eeeeee;
+
+    /*    background-color: #eeeeee;*/
+}
+
+.suggested-author-profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.suggested-author-header-box {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 25px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+.suggested-author-name {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.suggested-author-name:hover {
+    color: gray;
+}
+
+.suggested-author-table {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    grid-gap: 10px;
+
+}
+
+.suggested-author-data {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 8px;
+    padding-top: 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+    justify-content: left;
+
+}
+
+.suggested-author-statistics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.suggested-follow-section {
+    display: flex;
+    justify-content: center;
+}
+
+.suggested-follow {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 174, 49);
+    padding-top: 8px;
+    width: 40px;
+    color: white;
+}
+
+.suggested-follow:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(210, 210, 210);
+    transition: all 0.2s ease-out;
+    background-color: rgb(1, 127, 1);
+}

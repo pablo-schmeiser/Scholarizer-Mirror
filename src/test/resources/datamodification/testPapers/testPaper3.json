@@ -1,0 +1,347 @@
+{
+  "paperId": "26d471bc2283ff357985177fbc26317a980891b9",
+  "title": "Aging-Constrained Performance Optimization for Multi Cores",
+  "citationStyles": {
+    "bibtex": "@['Book', 'JournalArticle', 'Conference']{Khdr2018Aging-ConstrainedPO,\n author = {Heba Khdr and H. Amrouch and J. Henkel},\n booktitle = {Design Automation Conference},\n journal = {2018 55th ACM/ESDA/IEEE Design Automation Conference (DAC)},\n pages = {1-6},\n title = {Aging-Constrained Performance Optimization for Multi Cores},\n year = {2018}\n}\n"
+  },
+  "authors": [
+    {
+      "authorId": "2522915",
+      "name": "Heba Khdr"
+    },
+    {
+      "authorId": "1894736",
+      "name": "H. Amrouch"
+    },
+    {
+      "authorId": "144271439",
+      "name": "J. Henkel"
+    }
+  ],
+  "citations": [
+    {
+      "paperId": "c4fc3cddd12063611b9a9ed4ec4ba8ddbf14b51f",
+      "title": "Power-Aware Checkpointing for Multicore Embedded Systems",
+      "authors": [
+        {
+          "authorId": "153631156",
+          "name": "Mohsen Ansari"
+        },
+        {
+          "authorId": "2144694858",
+          "name": "Sepideh Safari"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "2022561502",
+          "name": "Pourya Gohari-Nazari"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        },
+        {
+          "authorId": "2490667",
+          "name": "A. Ejlali"
+        },
+        {
+          "authorId": "1784633",
+          "name": "S. Hessabi"
+        }
+      ]
+    },
+    {
+      "paperId": "c53ab3e610e027a495fe2c8b9feff5e63ee9a9f7",
+      "title": "Dynamic thread mapping for power-efficient many-core systems under performance constraints",
+      "authors": [
+        {
+          "authorId": "70175077",
+          "name": "Veronia Iskandar"
+        },
+        {
+          "authorId": "2076021",
+          "name": "Cherif R. Salama"
+        },
+        {
+          "authorId": "152576616",
+          "name": "M. Taher"
+        }
+      ]
+    },
+    {
+      "paperId": "d368fed35cfc6489dcdc22f15f998faa3320667d",
+      "title": "NPU-Accelerated Imitation Learning for Thermal Optimization of QoS-Constrained Heterogeneous Multi-Cores",
+      "authors": [
+        {
+          "authorId": "81650122",
+          "name": "Martin Rapp"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "2165805657",
+          "name": "Nikita Krohmer"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "7e72ee40a3911e9da4d84d3a6ab1369595982d89",
+      "title": "Thermal- and Cache-Aware Resource Management based on ML- Driven Cache Contention Prediction",
+      "authors": [
+        {
+          "authorId": "31365626",
+          "name": "Mohammed Bakr Sikal"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "81650122",
+          "name": "Martin Rapp"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "2124a1c52ce8393b5de4205c74ca555c4eaba90d",
+      "title": "NPU-Accelerated Imitation Learning for Thermal- and QoS-Aware Optimization of Heterogeneous Multi-Cores",
+      "authors": [
+        {
+          "authorId": "81650122",
+          "name": "Martin Rapp"
+        },
+        {
+          "authorId": "2165805657",
+          "name": "Nikita Krohmer"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "01d51d00054ecfd5d7acc23db37d241cd0d395bb",
+      "title": "Date of publication xxxx 00, 0000, date of current version xxxx 00, 0000",
+      "authors": [
+        {
+          "authorId": "2144694858",
+          "name": "Sepideh Safari"
+        },
+        {
+          "authorId": "153631156",
+          "name": "Mohsen Ansari"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "2155231343",
+          "name": "Pourya Gohari Nazari"
+        },
+        {
+          "authorId": "2098753414",
+          "name": "Sina"
+        },
+        {
+          "authorId": "2155231134",
+          "name": "YARI-KARIN"
+        },
+        {
+          "authorId": "1411407795",
+          "name": "Amir Yeganeh-Khaksar"
+        },
+        {
+          "authorId": "1784633",
+          "name": "S. Hessabi"
+        },
+        {
+          "authorId": "2155231131",
+          "name": "Alireza"
+        },
+        {
+          "authorId": "2155231252",
+          "name": "Ejlali"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "de13984d6fcb9d05beddeca2e3bf6c71806bb555",
+      "title": "A Survey of Fault-Tolerance Techniques for Embedded Systems From the Perspective of Power, Energy, and Thermal Issues",
+      "authors": [
+        {
+          "authorId": "2144694858",
+          "name": "Sepideh Safari"
+        },
+        {
+          "authorId": "153631156",
+          "name": "Mohsen Ansari"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "2022561502",
+          "name": "Pourya Gohari-Nazari"
+        },
+        {
+          "authorId": "1820939079",
+          "name": "Sina Yari-Karin"
+        },
+        {
+          "authorId": "1411407795",
+          "name": "Amir Yeganeh-Khaksar"
+        },
+        {
+          "authorId": "1784633",
+          "name": "S. Hessabi"
+        },
+        {
+          "authorId": "2490667",
+          "name": "A. Ejlali"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "fd363aabb9b04ccc1279ffbf7f87eee41a3dac37",
+      "title": "TherMa-MiCs: Thermal-Aware Scheduling for Fault-Tolerant Mixed-Criticality Systems",
+      "authors": [
+        {
+          "authorId": "2144694858",
+          "name": "Sepideh Safari"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "2022561502",
+          "name": "Pourya Gohari-Nazari"
+        },
+        {
+          "authorId": "153631156",
+          "name": "Mohsen Ansari"
+        },
+        {
+          "authorId": "1784633",
+          "name": "S. Hessabi"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "8c643a8f01fb4133ce258634ced386c58d113235",
+      "title": "Combinatorial Auctions for Temperature-Constrained Resource Management in Manycores",
+      "authors": [
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "145063983",
+          "name": "M. Shafique"
+        },
+        {
+          "authorId": "1970668",
+          "name": "Santiago Pagani"
+        },
+        {
+          "authorId": "1686023",
+          "name": "A. Herkersdorf"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "76bd88ff810f0083d5271799b5bd5618bc1296af",
+      "title": "Thermally Composable Hybrid Application Mapping for Real-Time Applications in Heterogeneous Many-Core Systems",
+      "authors": [
+        {
+          "authorId": "9250598",
+          "name": "Behnaz Pourmohseni"
+        },
+        {
+          "authorId": "2083877803",
+          "name": "Fedor Smirnov"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "1720511",
+          "name": "S. Wildermann"
+        },
+        {
+          "authorId": "144365535",
+          "name": "J. Teich"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    },
+    {
+      "paperId": "5f93fe9040018f4dab516b1be8db5ada99e0c501",
+      "title": "Resource Management for Multicores to Optimize Performance under Temperature and Aging Constraints",
+      "authors": [
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        }
+      ]
+    },
+    {
+      "paperId": "e269e18a1a479d07a3fd826310c80c739156fd69",
+      "title": "Aging Effects: From Physics to CAD",
+      "authors": [
+        {
+          "authorId": "1894736",
+          "name": "H. Amrouch"
+        },
+        {
+          "authorId": "2522915",
+          "name": "Heba Khdr"
+        },
+        {
+          "authorId": "144271439",
+          "name": "J. Henkel"
+        }
+      ]
+    }
+  ]
+}

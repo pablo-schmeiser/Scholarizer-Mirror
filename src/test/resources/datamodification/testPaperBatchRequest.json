@@ -1,0 +1,80 @@
+[
+  {
+    "paperId": "26d471bc2283ff357985177fbc26317a980891b9",
+    "title": "Aging-Constrained Performance Optimization for Multi Cores",
+    "abstract": "Circuit aging has become a dire design concern and hence it is considered a primary design constraint. Current practice to cope with this problem is to apply (too) conservative means.In contrast, we introduce a far less restrictive approach by efficiently exploring a fundamentally new aging-aware design space comprising temperature (T), aging degradation (ΔVth) and supply voltage (Vdd). On that basis, we present a tailored multi core resource management (with # threads and v/f levels as parameters etc.) that aims to maximize performance (optimization goal) under aging constraint(s). We demonstrate that our approach is the first to fully exploit the performance/aging trade-off within this new design space but without the restrictions inherent to current state of the art. As a result, we achieve 43% increase in performance while maintaining the same level of circuit aging when compared to the best technique reported yet.",
+    "citationCount": 12,
+    "openAccessPdf": null,
+    "publicationDate": "2018-06-01",
+    "authors": [
+      {
+        "authorId": "2522915",
+        "name": "Heba Khdr"
+      },
+      {
+        "authorId": "1894736",
+        "name": "H. Amrouch"
+      },
+      {
+        "authorId": "144271439",
+        "name": "J. Henkel"
+      }
+    ]
+  },
+  {
+    "paperId": "696d9e4ad06e97527eaa3c95c78e8131a173e198",
+    "title": "Dynamic Guardband Selection: Thermal-Aware Optimization for Unreliable Multi-Core Systems",
+    "abstract": "Circuit aging has become the major reliability concern in current and upcoming technology nodes. For instance, Bias Temperature Instability (BTI) leads to an increase in the threshold voltage of a transistor. That, in turn, may prolong the critical path delay of the processor and eventually may lead to timing errors. In order to avoid aging-induced timing errors, designers employ guardbands either with respect to voltage or frequency. State-of-the-art techniques determine a guardband type at the circuit level at design time irrespective from the running workload at the system level. Our investigation revealed that generated temperatures by a running workload have the potential to play a key role in determining the appropriate guardband type with respect to system performance. Therefore, we propose a paradigm shift in designing guardbands: to select the guardband types on-the-fly with respect to the workload-induced temperatures aiming at optimizing for performance under temperature and reliability constraints. Moreover, different guardband types for different cores can be selected simultaneously when multiple applications with diverse properties suggest this to be useful. Our dynamic guardband selection allows for a higher performance compared to techniques that employ a fixed (at design time) guardband type throughout.",
+    "citationCount": 10,
+    "openAccessPdf": null,
+    "publicationDate": null,
+    "authors": [
+      {
+        "authorId": "2522915",
+        "name": "Heba Khdr"
+      },
+      {
+        "authorId": "1894736",
+        "name": "H. Amrouch"
+      },
+      {
+        "authorId": "144271439",
+        "name": "J. Henkel"
+      }
+    ]
+  },
+  {
+    "paperId": "76bd88ff810f0083d5271799b5bd5618bc1296af",
+    "title": "Thermally Composable Hybrid Application Mapping for Real-Time Applications in Heterogeneous Many-Core Systems",
+    "abstract": "Modern embedded many-core systems host, among others, real-time applications which must be dynamically launched at run time. To this end, Hybrid Application Mapping (HAM) methodologies combine design-time analysis with runtime mapping techniques to enable dynamic application mapping with performance guarantees, e.g., w.r.t. real-time constraints. They rely on composability to derive the required performance guarantees in an isolated analysis of individual applications at design time. The ongoing process technology downsizing, however, has given rise to an increased on-chip temperature, so that the thermal integrity of the platform must be monitored and enforced at run time by means of Dynamic Thermal Management (DTM) techniques which use countermeasures e.g. DVFS and power gating. This, however, violates composability, as the thermally unsafe behavior of one application may trigger DTM countermeasures that affect other applications running in the thermally affected region which, in turn, may lead to the violation of their real-time constraints. As a remedy, this paper proposes, for the first time, a thermally composable HAM methodology that enforces thermal safety proactively at the launch time of applications and, thereby, prevents DTM interferences which react to thermal violations. To that end, we present (a) a novel thermal-safety analysis that can be integrated into the design-time analysis of HAM and (b) a set of thermal-safety admission checks that can be used at run time when launching an application. By establishing thermal composability among running applications, the proposed HAM approach enables providing thermally safe real-time guarantees for dynamically mapped applications in many-core systems. Experimental results for a variety of hard real-time applications on multiple heterogeneous many-core architectures demonstrate the efficiency and effectiveness of the proposed methodology.",
+    "citationCount": 10,
+    "openAccessPdf": null,
+    "publicationDate": "2019-12-01",
+    "authors": [
+      {
+        "authorId": "9250598",
+        "name": "Behnaz Pourmohseni"
+      },
+      {
+        "authorId": "2083877803",
+        "name": "Fedor Smirnov"
+      },
+      {
+        "authorId": "2522915",
+        "name": "Heba Khdr"
+      },
+      {
+        "authorId": "1720511",
+        "name": "S. Wildermann"
+      },
+      {
+        "authorId": "144365535",
+        "name": "J. Teich"
+      },
+      {
+        "authorId": "144271439",
+        "name": "J. Henkel"
+      }
+    ]
+  }
+]

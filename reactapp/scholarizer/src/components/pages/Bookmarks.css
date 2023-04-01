@@ -1,0 +1,24 @@
+.bookmark-title {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin: 1rem auto;
+    color: rgb(108, 107, 107);
+}
+
+.page-table {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1rem;
+    vertical-align: top;
+    justify-content: center;
+}
+
+.publication-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

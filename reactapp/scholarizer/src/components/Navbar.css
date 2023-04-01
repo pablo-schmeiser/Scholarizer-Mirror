@@ -1,0 +1,227 @@
+.navbar {
+    background: #f9f9f9;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-buffering {
+    padding: 5px 5px;
+    height: 35px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    max-width: 1500px;
+}
+
+.navbar-logo {
+    color: rgb(7, 7, 7);
+    justify-self: start;
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.fa-typo3 {
+    margin-left: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: right;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 0rem;
+}
+
+.nav-item {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+
+}
+
+.nav-links {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 7px;
+    align-items: center;
+    text-decoration: none;
+    padding: 0rem 0.3rem;
+    height: 100%;
+}
+
+.nav-links:hover {
+    border-bottom: 4px solid rgb(210, 210, 210);
+    transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+    color: rgb(0, 0, 0);
+}
+
+.nav-links-mobile {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .NavbarItems {
+        position: relative;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .nav-menu.active {
+        background: #f2f2f2;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav-links {
+        text-align: center;
+        padding: 2.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+
+    }
+
+    .page-link {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+    .nav-links:hover {
+        background-color: #fff;
+        color: #242424;
+        border-radius: 0;
+        height: 10px;
+    }
+
+    .navbar-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(25%, 50%);
+        height: 30px;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .fa-times {
+        color: rgb(1, 1, 1);
+        font-size: 2rem;
+    }
+
+    .nav-links-mobile {
+        display: block;
+        text-align: center;
+        margin: 2rem auto;
+        border-radius: 4px;
+        width: 80%;
+        text-decoration: none;
+        font-size: 1.5rem;
+        background-color: transparent;
+        color: rgb(4, 187, 243);
+        padding: 14px 20px;
+        border: 1px solid #fff;
+        transition: all 0.3s ease-out;
+    }
+
+    .nav-links-mobile:hover {
+        background: #fff;
+        color: #242424;
+        transition: 250ms;
+    }
+}
+
+input[type="search"] {
+    height: 2rem;
+    width: 100%;
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+input::placeholder {
+    font-size: 1rem;
+    padding: 10px 10px;
+}
+
+.Search {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border: 2px solid lightgrey;
+    margin-left: 4rem;
+    border-radius: 10px;
+
+}
+
+.Search > button {
+    background-color: Transparent;
+    border-style: hidden;
+}
+
+.navbar-search {
+    width: 35px;
+    border-left: 0px solid lightgrey;
+    border-right: 0px solid lightgrey;
+    color: rgb(2, 160, 54);
+    padding: 50 5px;
+    height: 26px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-style: hidden;
+
+}
+
+.navbar-search:hover {
+    color: green;
+}

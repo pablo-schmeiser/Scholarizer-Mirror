@@ -1,0 +1,10 @@
+.stat-table-header {
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.table-cell {
+    background-color: red;
+}

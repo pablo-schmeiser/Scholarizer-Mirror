@@ -1,0 +1,83 @@
+.input-scholar-data {
+    border: none;
+    box-shadow: 0px 0px;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.input-.input-scholar-data:focus {
+    text-decoration: none;
+}
+
+.compare-author-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.add-scholar-button {
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid white;
+    font-size: 0.8rem;
+    border-radius: 50px;
+
+}
+
+.add-scholar-button:hover {
+    background-color: #a7a7a7;
+    color: white;
+}
+
+.add-scholar-button:active {
+    background-color: gainsboro;
+}
+
+.td, tr, th {
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+
+.remove-scholar-button {
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid white;
+    font-size: 0.7rem;
+    border-radius: 10px;
+    background-color: rgb(247, 2, 2);
+    color: white;
+}
+
+.remove-scholar-button:hover {
+    background-color: rgb(212, 0, 0);
+}
+
+.remove-scholar-button:active {
+    background-color: rgb(183, 1, 1);
+}
+
+.selected-authors-table {
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.empty-message {
+    padding: 10px;
+    border-width: 0px;
+}
+
+.table-data {
+    border-width: 0px;
+    border-radius: 5px;
+}

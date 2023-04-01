@@ -1,0 +1,75 @@
+.page-table {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 5rem;
+    margin-left: 3rem;
+    vertical-align: top;
+    position: sticky;
+}
+
+.statistics-table {
+    margin-top: 2.5rem;
+}
+
+.bar-chart {
+    margin-top: 1.5rem;
+}
+
+.profile-page {
+    display: flex;
+    grid-column: 1 / 2;
+    flex-direction: column;
+    justify-content: start;
+    position: sticky;
+    margin-left: 3rem;
+    /* padding-left: 10rem;*/
+}
+
+.publications {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.vertical-line {
+    max-width: 10px;
+}
+
+.pages-menu {
+    text-align: center;
+}
+
+.suggested-scholars-tab {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-top: 3rem;
+}
+
+.suggested-scholars-table {
+    padding: 1rem;
+}
+
+.suggested-authors-cards {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 1rem;
+    justify-content: right;
+    margin-top: 1rem;
+}
+
+.suggested-scholars-title {
+    font-size: 18px;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.profile-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

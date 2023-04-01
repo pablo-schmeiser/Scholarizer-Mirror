@@ -1,0 +1,7 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLGeneric</id><coordinates><x>280</x><y>60</y><w>400</w><h>400</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;subsystem&gt;&gt;
+Recommended Page</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>380</x><y>160</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+News Feed</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>380</x><y>300</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;component&gt;&gt;
+Suggested Scholars</panel_attributes><additional_attributes></additional_attributes></element></diagram>
