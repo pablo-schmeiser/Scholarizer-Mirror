@@ -85,7 +85,7 @@ A webplatform for scholars to find other scholars in their field of expertice. T
 - [x] Design
 - [x] Implementation
 - [x] Quality Assurance
-- [ ] Presentation
+- [x] Presentation
 
 
 <!-- CONTRIBUTING -->
